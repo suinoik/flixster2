@@ -1,10 +1,10 @@
-# Project 3 - Flixter
+# Project 3 - *Flixster pt2*
 
-Submitted by: Michael Obi
+Submitted by: **Onwuosiuno Ikhioda**
 
-**Flixter** is an app that allows users to browse movies in different ways.
+**Flixster pt2** is an app that introduces networking ... [TODO] 
 
-Time spent: **11** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
@@ -16,33 +16,16 @@ The following **required** functionality is completed:
  
 The following **optional** features are implemented:
 
-- [ ] Make an additional network call to another end-point.	
-- [ ] Allow users to scroll when context items are off-screen (table view implemention)
+- [x] Allow users to scroll when context items are off-screen (table view implemention)
 
-The following **additional** features are implemented:
-
-- [] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
-<a href="https://imgur.com/a/m3iUIao">Video Walkthrough</a>
+<div>
+    <a href="https://www.loom.com/share/8e1bdbc3407748aa843db18f96571a43">
+    </a>
+    <a href="https://www.loom.com/share/8e1bdbc3407748aa843db18f96571a43">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/8e1bdbc3407748aa843db18f96571a43-with-play.gif">
+    </a>
+  </div>
 
-## Notes
-Making sure the table view was working correctly with the recycler view was challenging.
-
-## License
-
-    Copyright [2024] [Michael Obi]
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-        http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
