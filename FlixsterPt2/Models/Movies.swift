@@ -3,7 +3,6 @@
 //  FlixsterPt2
 //
 //
-//  Created by Augusto Rodriguez on 10/1/23.
 //
 
 import Foundation
