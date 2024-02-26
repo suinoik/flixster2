@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1CFE06229960088003C799A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE06129960088003C799A /* AppDelegate.swift */; };
+		F1CFE06429960088003C799A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE06329960088003C799A /* SceneDelegate.swift */; };
+		F1CFE06929960088003C799A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CFE06729960088003C799A /* Main.storyboard */; };
+		F1CFE06B2996008A003C799A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1CFE06A2996008A003C799A /* Assets.xcassets */; };
+		F1CFE06E2996008A003C799A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1CFE06C2996008A003C799A /* LaunchScreen.storyboard */; };
+		F1CFE096299601C5003C799A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE095299601C5003C799A /* MovieCell.swift */; };
+		F1CFE098299601E4003C799A /* PosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE097299601E4003C799A /* PosterCell.swift */; };
+		F1CFE09A29960219003C799A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE09929960219003C799A /* DetailViewController.swift */; };
+		F1CFE09C29960236003C799A /* PostersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE09B29960236003C799A /* PostersViewController.swift */; };
+		F1CFE09E29960248003C799A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE09D29960248003C799A /* MoviesViewController.swift */; };
+		F1CFE0A029960269003C799A /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CFE09F29960269003C799A /* Movies.swift */; };
+		F1CFE0A32996035F003C799A /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = F1CFE0A22996035F003C799A /* Nuke */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1CFE05E29960088003C799A /* FlixsterPt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlixsterPt2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1CFE06129960088003C799A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1CFE06329960088003C799A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1CFE06829960088003C799A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1CFE06A2996008A003C799A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1CFE06D2996008A003C799A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1CFE06F2996008A003C799A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1CFE095299601C5003C799A /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		F1CFE097299601E4003C799A /* PosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCell.swift; sourceTree = "<group>"; };
+		F1CFE09929960219003C799A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F1CFE09B29960236003C799A /* PostersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostersViewController.swift; sourceTree = "<group>"; };
+		F1CFE09D29960248003C799A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		F1CFE09F29960269003C799A /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1CFE05B29960088003C799A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFE0A32996035F003C799A /* Nuke in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1CFE05529960088003C799A = {
+			isa = PBXGroup;
+			children = (
+				F1CFE06029960088003C799A /* FlixsterPt2 */,
+				F1CFE05F29960088003C799A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1CFE05F29960088003C799A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFE05E29960088003C799A /* FlixsterPt2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1CFE06029960088003C799A /* FlixsterPt2 */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFE0942996016D003C799A /* Cells */,
+				F1CFE0932996015D003C799A /* Detail View Controllers */,
+				F1CFE0922996014F003C799A /* View Controllers */,
+				F1CFE09129960146003C799A /* Models */,
+				F1CFE06129960088003C799A /* AppDelegate.swift */,
+				F1CFE06329960088003C799A /* SceneDelegate.swift */,
+				F1CFE06729960088003C799A /* Main.storyboard */,
+				F1CFE06A2996008A003C799A /* Assets.xcassets */,
+				F1CFE06C2996008A003C799A /* LaunchScreen.storyboard */,
+				F1CFE06F2996008A003C799A /* Info.plist */,
+			);
+			path = FlixsterPt2;
+			sourceTree = "<group>";
+		};
+		F1CFE09129960146003C799A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFE09F29960269003C799A /* Movies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1CFE0922996014F003C799A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFE09B29960236003C799A /* PostersViewController.swift */,
+				F1CFE09D29960248003C799A /* MoviesViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		F1CFE0932996015D003C799A /* Detail View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFE09929960219003C799A /* DetailViewController.swift */,
+			);
+			path = "Detail View Controllers";
+			sourceTree = "<group>";
+		};
+		F1CFE0942996016D003C799A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F1CFE095299601C5003C799A /* MovieCell.swift */,
+				F1CFE097299601E4003C799A /* PosterCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1CFE05D29960088003C799A /* FlixsterPt2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1CFE0882996008B003C799A /* Build configuration list for PBXNativeTarget "FlixsterPt2" */;
+			buildPhases = (
+				F1CFE05A29960088003C799A /* Sources */,
+				F1CFE05B29960088003C799A /* Frameworks */,
+				F1CFE05C29960088003C799A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlixsterPt2;
+			packageProductDependencies = (
+				F1CFE0A22996035F003C799A /* Nuke */,
+			);
+			productName = FlixsterPt2;
+			productReference = F1CFE05E29960088003C799A /* FlixsterPt2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1CFE05629960088003C799A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F1CFE05D29960088003C799A = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F1CFE05929960088003C799A /* Build configuration list for PBXProject "FlixsterPt2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1CFE05529960088003C799A;
+			packageReferences = (
+				F1CFE0A12996035F003C799A /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
+			productRefGroup = F1CFE05F29960088003C799A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1CFE05D29960088003C799A /* FlixsterPt2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1CFE05C29960088003C799A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFE06E2996008A003C799A /* LaunchScreen.storyboard in Resources */,
+				F1CFE06B2996008A003C799A /* Assets.xcassets in Resources */,
+				F1CFE06929960088003C799A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1CFE05A29960088003C799A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CFE098299601E4003C799A /* PosterCell.swift in Sources */,
+				F1CFE06229960088003C799A /* AppDelegate.swift in Sources */,
+				F1CFE0A029960269003C799A /* Movies.swift in Sources */,
+				F1CFE09A29960219003C799A /* DetailViewController.swift in Sources */,
+				F1CFE06429960088003C799A /* SceneDelegate.swift in Sources */,
+				F1CFE096299601C5003C799A /* MovieCell.swift in Sources */,
+				F1CFE09E29960248003C799A /* MoviesViewController.swift in Sources */,
+				F1CFE09C29960236003C799A /* PostersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1CFE06729960088003C799A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CFE06829960088003C799A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1CFE06C2996008A003C799A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1CFE06D2996008A003C799A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1CFE0862996008B003C799A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1CFE0872996008B003C799A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1CFE0892996008B003C799A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlixsterPt2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustorodriguez.FlixsterPt2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1CFE08A2996008B003C799A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlixsterPt2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustorodriguez.FlixsterPt2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1CFE05929960088003C799A /* Build configuration list for PBXProject "FlixsterPt2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CFE0862996008B003C799A /* Debug */,
+				F1CFE0872996008B003C799A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1CFE0882996008B003C799A /* Build configuration list for PBXNativeTarget "FlixsterPt2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1CFE0892996008B003C799A /* Debug */,
+				F1CFE08A2996008B003C799A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1CFE0A12996035F003C799A /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = exactVersion;
+				version = 9.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1CFE0A22996035F003C799A /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CFE0A12996035F003C799A /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F1CFE05629960088003C799A /* Project object */;
+}
